@@ -1,0 +1,98 @@
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+  /*width: 300px;*/
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+
+}
+
+.my-masonry-grid-cat {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -10px; /* gutter size offset */
+  width: auto;
+  /*width: 300px;*/
+}
+.my-masonry-grid_column-cat {
+  padding-left: 5px; /* gutter size */
+  background-clip: padding-box;
+
+}
+ 
+
+.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+  background: #2d5986;
+  /*color:#000;*/
+  margin-bottom: 30px;
+  /*padding: 20px;*/
+  border-radius: 0.4rem;
+}
+.my-masonry-grid_column > div:hover  .delete-note{
+  border-radius: 1.4rem;
+   /*border: 1px solid red;*/
+   /*display: block;*/
+   opacity: 1;
+}
+
+.my-masonry-grid_column-cat > div { /* change div to reference your elements you put in <Masonry> */
+  background: #2d5986;
+  /*color:#000;*/
+  /*padding: 20px;*/
+  border-radius: 0.6rem;
+}
+
+
+.body-note{
+  padding: 18px;
+  padding-top: 12px;
+  font-weight: 600;
+  /*text-shadow:1px 1px 1px #484848,0px 1px 5px #484848;*/
+  text-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+  word-wrap: break-word;
+
+
+}
+.head-note{
+  padding-top: 5px;
+  text-align: center;
+}
+
+
+.colors-ctn{
+  text-align: center;
+}
+.title-note{
+/*border: 1px solid green;*/
+font-size: 20px;
+ font-weight: 600;
+}
+.delete-note{
+  /*border: 1px solid red;*/
+  padding: 2px;
+  padding-right: 8px;
+  /*font-size: 18px;*/
+  /*font-weight: 600;*/
+  float: right;
+  /*display: none;*/
+  opacity: 1;
+  cursor: pointer;
+}
+
+.delete-category{
+  /*border: 1px solid red;*/
+  padding: 2px;
+  padding-right: 8px;
+  /*font-size: 18px;*/
+  /*font-weight: 600;*/
+  float: right;
+  /*display: none;*/
+  opacity: 1;
+  cursor: pointer;
+}

@@ -1,0 +1,176 @@
+.App {
+  /*text-align: center;*/
+  margin: auto;
+}
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+.Mylogo{
+  height: 10%;
+  width: 70%;
+}
+
+.myStyle{
+  /* border: 0.5px solid #61dafb; */
+  width: 300px;
+  position: absolute; left: 30%; top: 15%;
+  border-radius:3px;
+  height:20px;
+  overflow:hidden;
+  -webkit-transition: height 0.5s ease;
+  -moz-transition: height 0.6s ease;
+  -o-transition: height 0.7s ease;
+  transition: height 0.8s ease;
+}
+
+.myStyle:hover{
+  /* border: 1px solid red;  */
+}
+.myStyle:focus{
+  /* border: 1px solid red;  */
+}
+
+.mybtn{
+  /* background-color: aqua; */
+  /* height:1120px; */
+  height: 100%;
+  width: 99%;
+}
+.mybtn:focus{
+  /* background-color: aqua;  */
+}
+
+.myTextArea{
+  resize: none;
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 300px;
+  /* height: 200px; */
+  /* -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none; */
+
+  /* border-radius: 4px 4px 4px 4px; */
+  /* border-style: none solid solid none; */
+  /* border-width: medium 1px 1px medium; */
+  /* box-shadow: 2px 1px 2p red inset; */
+  /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+
+  border-radius: 6px;
+  /* box-shadow: 0 4px 20px 0 rgba(0,0,0,0.4); */
+  box-shadow: 0 4px 15px 22px rgba(0,0,0,0.4);
+  background-color: #ffffff;
+  border: solid 1px #e6e6e6;
+  color:black;
+  font-size:1em;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* line-height: 2.4em; */
+  padding: 5px 8px;
+  transition: background-color 0.2s ease 0s;
+  height:50px;
+  overflow:hidden;
+  -webkit-transition: height 0.5s ease;
+  -moz-transition: height 0.6s ease;
+  -o-transition: height 0.7s ease;
+  transition: height 0.8s ease;
+}
+
+.myTextAreaDark{
+  resize: none;
+  /* background: #424242; */
+  background-color: #434956;
+  margin-top: 10px;
+  margin-left: 30px;
+  color: #d4d7de;
+  font-size:1.1em;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 400px;
+  padding: 5px 8px;
+  border: 0px;
+  border-radius: 0.3rem;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  height:50px;
+  /* overflow:hidden; */
+  -webkit-transition: height 0.5s ease;
+  -moz-transition: height 0.6s ease;
+  -o-transition: height 0.7s ease;
+  transition: height 0.8s ease;
+}
+
+.stickerCtn{
+  /* width: 90%; */
+  padding-right: 6%;
+  padding-left: 6%;
+  padding-top: 3%;
+  /* position: absolute; left: 50%; top: 15%; */
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.ctn{
+  display: flex;
+  height: 5vh;
+  justify-content: center;
+  /* background-color: #373d48; */
+  background-color: #14A76C;
+  align-items: center;
+  flex-direction: column;
+
+}
+.headerMenu{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-self: stretch;
+  -webkit-app-region:drag;
+}
+.option{
+  font-size: 1rem;
+  padding: 5px 12px;
+  cursor: default;
+  color: white;
+  -webkit-app-region:no-drag;
+}
+.option:hover{
+  background-color: #646e82;
+}
+
+.colorCircle:hover{
+ opacity: 0.5;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.body-note{
+  cursor: pointer;
+}
+.title-note{
+  cursor: pointer;
+}
