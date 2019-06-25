@@ -1,5 +1,6 @@
 # Notynote
-Notynote App using Electron and React 
+Notynote is a Desktop App to manage Notes
+Developed with Electron and React 
  
 ![alt text](https://raw.githubusercontent.com/abdes-zakari/notynote/master/notynote_bg.PNG)
 
