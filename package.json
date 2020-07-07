@@ -47,7 +47,7 @@
   ],
   "main": "main.js",
   "devDependencies": {
-    "electron": "^4.0.2",
+    "electron": "^7.2.4",
     "electron-builder": "^20.38.5",
     "electron-rebuild": "^1.8.2",
     "react-masonry-css": "^1.0.12"
