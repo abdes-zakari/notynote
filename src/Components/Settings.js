@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
 const styles = theme => ({
@@ -18,9 +17,9 @@ const styles = theme => ({
   }
 });
 class Settings extends Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   render() {
 
@@ -35,10 +34,10 @@ class Settings extends Component {
         <Grid item xs={8}  className={classes.inside}>
           {/*<Paper className={classes.paper}>xs=3</Paper>*/}
           <h2>Settings</h2>
-          <div>
-            <label>Number of Notes</label>
+          {/*<div>
+            <label>Number of</label>
             <input type="text"/>
-          </div>
+          </div>*/}
         </Grid>
 
       </Grid>

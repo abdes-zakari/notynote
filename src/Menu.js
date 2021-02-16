@@ -1,25 +1,16 @@
-import React,{ Component } from 'react';
-import { BrowserRouter,Route } from 'react-router-dom';
-import {Link,NavLink} from 'react-router-dom';
+import React from 'react';
+import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types';
-import AppBar from '@material-ui/core/AppBar';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Divider from '@material-ui/core/Divider';
 import Drawer from '@material-ui/core/Drawer';
 import Hidden from '@material-ui/core/Hidden';
-import IconButton from '@material-ui/core/IconButton';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
 import HomeIcon from '@material-ui/icons/Home';
 import SettingsIcon from '@material-ui/icons/Settings';
 import AddIcon from '@material-ui/icons/AddBox';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-import MailIcon from '@material-ui/icons/Mail';
-import MenuIcon from '@material-ui/icons/Menu';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 import logo from './Components/note3.png';
 import CategoryMenu from './Components/CategoryMenu';
@@ -85,16 +76,16 @@ class Menu extends React.Component {
         <Divider />
         <List  >
             <Link to="/"  className={classes.link}>
-              <ListItem button  > <ListItemIcon className={classes.iconAssets} ><HomeIcon /> </ListItemIcon> Start</ListItem>
+              <ListItem button><ListItemIcon className={classes.iconAssets} ><HomeIcon/></ListItemIcon>Start</ListItem>
             </Link>
             {/*<Link to="/start/5"  className={classes.link}>
               <ListItem button  > <ListItemIcon className={classes.iconAssets} ><HomeIcon /> </ListItemIcon> Cook CAT</ListItem>
             </Link>*/}
             <Link to="/seconde" className={classes.link}>
-              <ListItem button  ><ListItemIcon className={classes.iconAssets}><SettingsIcon /> </ListItemIcon>Settings</ListItem>
+              <ListItem button><ListItemIcon className={classes.iconAssets}><SettingsIcon /></ListItemIcon>Settings</ListItem>
             </Link>
             <Link to="/cat" className={classes.link}>
-              <ListItem  button  ><ListItemIcon className={classes.iconAssets}><AddIcon /> </ListItemIcon>New Category</ListItem>
+              <ListItem  button><ListItemIcon className={classes.iconAssets}><AddIcon /></ListItemIcon>New Category</ListItem>
               </Link>
         </List>
         <Divider />

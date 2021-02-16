@@ -1,9 +1,15 @@
 # Notynote
 Notynote is a Desktop App to manage Notes
-Developed with Electron and React 
+Developed with Python and React 
  
 ![alt text](https://raw.githubusercontent.com/abdes-zakari/notynote/master/notynote_bg.PNG)
 
+
+# Dependencies
+- Python 
+- pip
+- npm 
+- Node
 
 # Installation
 
@@ -14,10 +20,20 @@ npm install
 ```
 
 ```bash
-npm run rebuild
+pip install PyQt5
 ```
+
+```bash
+pip install PyQtWebEngine
+```
+
+
 
 ## Start Application with the following command
 ```bash
-npm run electron-dev
+npm start
+```
+
+```bash
+py main.py
 ```
